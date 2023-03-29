@@ -12,8 +12,7 @@ import UIKit
 public extension UIColor {
     
     static func asset(named name: String) -> UIColor {
-        let bundle = Bundle(identifier: "TSAppDesign")
-        return .init(named: name, in: bundle, compatibleWith: nil) ?? UIColor()
+        return .init(named: name, in: Bundle.module, compatibleWith: nil) ?? UIColor()
     }
     
     var light: UIColor {
