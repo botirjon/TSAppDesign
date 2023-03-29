@@ -12,7 +12,7 @@ import UIKit
 public extension UIColor {
     
     static func asset(named name: String) -> UIColor {
-        let bundle = Bundle(identifier: "com.uzsqb.joydabusiness.appdesign")
+        let bundle = Bundle(identifier: "TSAppDesign")
         return .init(named: name, in: bundle, compatibleWith: nil) ?? UIColor()
     }
     
