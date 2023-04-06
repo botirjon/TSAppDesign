@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/botirjon/BNAppFoundationPackage.git",
       "state" : {
-        "revision" : "0e8f9358ae8fc3992fd2f7e8ce156fd08b84e9b1",
-        "version" : "1.0.1"
+        "revision" : "f23183cf4364bda0f6a3ba8f48dd2257def131e2",
+        "version" : "1.2.0"
       }
     }
   ],
