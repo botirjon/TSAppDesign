@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-import BNAppFoundationPackage
+import BNAppFoundation
 
 
 public var theme: Theme {
