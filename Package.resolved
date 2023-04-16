@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "bnappfoundationpackage",
+      "identity" : "bnappfoundation",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/botirjon/BNAppFoundationPackage.git",
+      "location" : "https://github.com/botirjon/BNAppFoundation.git",
       "state" : {
-        "revision" : "f23183cf4364bda0f6a3ba8f48dd2257def131e2",
-        "version" : "1.2.0"
+        "revision" : "7d42bd5126210e359be73db66a90ce387db0dfdb",
+        "version" : "1.4.0"
       }
     }
   ],
