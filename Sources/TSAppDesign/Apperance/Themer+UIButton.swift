@@ -49,7 +49,7 @@ public extension Themer where Base: UIButton {
     }
     
     func setPoppinsFont(ofSize size: CGFloat, style: PoppinsFontStyle = .regular) {
-        self.base.font = .poppinsFont(ofSize: size, style: style)
+        self.base.titleLabel?.font = .poppinsFont(ofSize: size, style: style)
     }
     
     func setPoppinsFont(ofSize size: FontSize, style: PoppinsFontStyle = .regular) {
