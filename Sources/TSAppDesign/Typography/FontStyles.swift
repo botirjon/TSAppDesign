@@ -70,6 +70,27 @@ public enum MontserratFontStyle: String, AppFontStyle, CaseIterable {
     case thinItalic = "ThinItalic"
 }
 
+public enum PoppinsFontStyle: String, AppFontStyle, CaseIterable {
+    case blackItalic = "BlackItalic"
+    case black = "Black"
+    case extraBoldItalic = "ExtraBoldItalic"
+    case extraBold = "ExtraBold"
+    case boldItalic = "BoldItalic"
+    case bold = "Bold"
+    case semiBoldItalic = "SemiBoldItalic"
+    case semiBold = "SemiBold"
+    case mediumItalic = "MediumItalic"
+    case medium = "Medium"
+    case italic = "Italic"
+    case regular = "Regular"
+    case lightItalic = "LightItalic"
+    case light = "Light"
+    case extraLightItalic = "ExtraLightItalic"
+    case extraLight = "ExtraLight"
+    case thinItalic = "ThinItalic"
+    case thin = "Thin"
+}
+
 
 public enum FontSize {
     case largeTitle
@@ -114,3 +135,6 @@ public enum FontSize {
         }
     }
 }
+
+
+

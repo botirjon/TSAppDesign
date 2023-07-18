@@ -47,4 +47,12 @@ public extension Themer where Base: UIButton {
     func setMontserratFont(ofSize size: FontSize, style: MontserratFontStyle = .regular) {
         self.setMontserratFont(ofSize: size.pointSize, style: style)
     }
+    
+    func setPoppinsFont(ofSize size: CGFloat, style: PoppinsFontStyle = .regular) {
+        self.base.font = .poppinsFont(ofSize: size, style: style)
+    }
+    
+    func setPoppinsFont(ofSize size: FontSize, style: PoppinsFontStyle = .regular) {
+        self.setPoppinsFont(ofSize: size.pointSize, style: style)
+    }
 }

@@ -30,4 +30,9 @@ public extension UIFont {
         let scaledSize = Scaler.scaledFontSize(for: size)
         return appFont(.montserrat, ofSize: scaledSize, style: style)
     }
+    
+    static func poppinsFont(ofSize size: CGFloat, style: PoppinsFontStyle = .regular) -> UIFont {
+        let scaledSize = Scaler.scaledFontSize(for: size)
+        return appFont(.poppins, ofSize: scaledSize, style: style)
+    }
 }

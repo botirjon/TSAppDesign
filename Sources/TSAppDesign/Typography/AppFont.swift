@@ -14,6 +14,7 @@ public enum AppFont {
     case gilroy
     case roboto
     case montserrat
+    case poppins
     
     
     /// Family name of `Self`
@@ -22,6 +23,8 @@ public enum AppFont {
         case .gilroy: return "Gilroy"
         case .roboto: return "Roboto"
         case .montserrat: return "Montserrat"
+        case .poppins:
+            return "Poppins"
         }
     }
     
@@ -32,6 +35,8 @@ public enum AppFont {
         case .gilroy: return "Gilroy"
         case .roboto: return "Roboto"
         case .montserrat: return "Montserrat"
+        case .poppins:
+            return "Poppins"
         }
     }
 }

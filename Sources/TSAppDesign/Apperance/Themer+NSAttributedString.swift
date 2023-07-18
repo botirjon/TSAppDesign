@@ -54,4 +54,11 @@ extension Themer where Base: NSAttributedString {
         mutableAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.robotoFont(ofSize: size, style: style), range: range)
         return mutableAttributedString
     }
+    
+    func settingPoppinsFont(ofSize size: CGFloat, style: PoppinsFontStyle, in range: NSRange) -> NSAttributedString {
+        let string = base.string
+        let mutableAttributedString = NSMutableAttributedString.init(string: string)
+        mutableAttributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.poppinsFont(ofSize: size, style: style), range: range)
+        return mutableAttributedString
+    }
 }
