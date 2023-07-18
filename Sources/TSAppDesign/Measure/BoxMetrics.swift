@@ -18,6 +18,7 @@ public struct BoxMetrics {
     public static let cornerRadius30 = Scaler.scaledDimension(forDimension: 30, along: .y)
     public static let cornerRadius25 = Scaler.scaledDimension(forDimension: 25, along: .y)
     public static let cornerRadius20 = Scaler.scaledDimension(forDimension: 20, along: .y)
+    public static let cornerRadius15 = Scaler.scaledDimension(forDimension: 15, along: .y)
     public static let cornerRadius16 = Scaler.scaledDimension(forDimension: 16, along: .y)
     public static let cornerRadius12 = Scaler.scaledDimension(forDimension: 12, along: .y)
     
