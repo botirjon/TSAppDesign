@@ -22,6 +22,7 @@ public protocol AnyPallete {
     var green: UIColor { get }
     var red: UIColor { get }
     var textPrimary: UIColor { get }
+    var textPrimaryBrandBackground: UIColor { get }
     var textSecondary: UIColor { get }
     var textTertiary: UIColor { get }
     var textQuarternary: UIColor { get }
@@ -42,6 +43,7 @@ public extension AnyPallete {
     var green: UIColor { .appGreen }
     var red: UIColor { .appRed }
     var textPrimary: UIColor { .appTextPrimary }
+    var textPrimaryBrandBackground: UIColor { .appTextPrimaryBrandBackground }
     var textSecondary: UIColor { .appTextSecondary }
     var textTertiary: UIColor { .appTextTertiary }
     var textQuarternary: UIColor { .appTextMuted }

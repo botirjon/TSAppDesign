@@ -26,6 +26,7 @@ public enum ColorAsset: String, AnyColorAsset {
     case green = "green"
     case red = "red"
     case textPrimary = "textPrimary"
+    case textPrimaryBrandBackground = "textPrimaryBrandBackground"
     case textSecondary = "textSecondary"
     case textTertiary = "textTertiary"
     case textQuarternary = "textQuarternary"

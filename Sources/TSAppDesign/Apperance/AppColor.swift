@@ -24,6 +24,7 @@ public enum AppColor: AnyAppColor {
     case green
     case red
     case textPrimary
+    case textPrimaryBrandBackground
     case textSecondary
     case textTertiary
     case textQuarternary
@@ -57,6 +58,8 @@ public enum AppColor: AnyAppColor {
             return pallete.red
         case .textPrimary:
             return pallete.textPrimary
+        case .textPrimaryBrandBackground:
+            return pallete.textPrimaryBrandBackground
         case .textSecondary:
             return pallete.textSecondary
         case .textTertiary:
