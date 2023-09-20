@@ -41,7 +41,7 @@ public extension UIColor {
     static var appGreen: UIColor { .asset(named: "green")}
     static var appRed: UIColor { .asset(named: "red")}
     static var appTextPrimary: UIColor { .asset(named: "textPrimary")}
-    static var appTextPrimaryBrandBackground: UIColor { .asset(named: "textPrimaryBrandBackground")}
+    static var appTextPrimaryLightBackground: UIColor { .asset(named: "textPrimaryLightBackground")}
     static var appTextSecondary: UIColor { .asset(named: "textSecondary")}
     static var appTextTertiary: UIColor { .asset(named: "textTertiary")}
     static var textQuarternary: UIColor { .asset(named: "textQuarternary")}
