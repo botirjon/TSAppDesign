@@ -130,7 +130,9 @@ extension ThemeManager {
 
         
         UIButton.appearance().titleLabel?.font = UIFont.gilroyFont(ofSize: 14, style: .semiBold)
-        (NSClassFromString("UICalloutBarButton")! as! UIButton.Type).appearance().setTitleColor(UIColor.white, for: .normal)
+        if let CalloutButtonClass = NSClassFromString("UICalloutBarButton") as? UIButton.Type {
+            CalloutButtonClass.appearance().setTitleColor(.white, for: .normal)
+        }
     }
     
     private func setNeedsUISwitchThemeUpdate() {
